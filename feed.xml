@@ -3,7 +3,7 @@
     <title>UE Guru</title>
     <link href="https://ue.guru/feed.xml" rel="self" />
     <link href="https://ue.guru" />
-    <updated>2023-04-24T20:34:52+02:00</updated>
+    <updated>2023-04-24T20:57:49+02:00</updated>
     <author>
         <name>Leigh Murray</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://ue.guru/creating-an-inverse-kinematic-robotic-arm-in-unreal-engine.html"/>
         <id>https://ue.guru/creating-an-inverse-kinematic-robotic-arm-in-unreal-engine.html</id>
 
-        <updated>2023-04-24T20:34:52+02:00</updated>
+        <updated>2023-04-24T20:57:49+02:00</updated>
             <summary>
                 <![CDATA[
                     Create a Project Create a new Unreal Engine project, we can call it "RoboticArmIK". The Factory Environment Collection&nbsp;is part of Unreal's permanently free collection. It is its own project, so create a project from the asset and we will migrate the Robotic Arm Skeletal mesh&hellip;
@@ -29,7 +29,7 @@
   <div class="post__toc">
     <h3>TOC</h3>
     <ul>
-      <li><a href="#create-a-project">Create a Project</a></li><li><a href="#create-factory-environment-collection-andamp-migrate-robotic-arm">Create "Factory Environment Collection" &amp; Migrate Robotic Arm</a></li>
+      <li><a href="#create-a-project">Create a Project</a></li><li><a href="#create-factory-environment-collection-andamp-migrate-robotic-arm">Create "Factory Environment Collection" &amp; Migrate Robotic Arm</a></li><li><a href="#watch-this-video-while-your-shaders-compile">Watch this video while your shaders compile</a></li><li><a href="#"></a></li>
     </ul>
   </div>
   
@@ -41,6 +41,16 @@
   <p>
     Create a new Unreal Engine project, we can call it "RoboticArmIK".
   </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://ue.guru/media/posts/1/create-project-launcher.png" height="338" width="572" alt=""  sizes="100vw" srcset="https://ue.guru/media/posts/1/responsive/create-project-launcher-xs.png 300w ,https://ue.guru/media/posts/1/responsive/create-project-launcher-sm.png 480w ,https://ue.guru/media/posts/1/responsive/create-project-launcher-md.png 768w ,https://ue.guru/media/posts/1/responsive/create-project-launcher-lg.png 1024w ,https://ue.guru/media/posts/1/responsive/create-project-launcher-xl.png 1360w ,https://ue.guru/media/posts/1/responsive/create-project-launcher-2xl.png 1600w">
+      
+    </figure>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://ue.guru/media/posts/1/create-project.png" height="715" width="1185" alt=""  sizes="100vw" srcset="https://ue.guru/media/posts/1/responsive/create-project-xs.png 300w ,https://ue.guru/media/posts/1/responsive/create-project-sm.png 480w ,https://ue.guru/media/posts/1/responsive/create-project-md.png 768w ,https://ue.guru/media/posts/1/responsive/create-project-lg.png 1024w ,https://ue.guru/media/posts/1/responsive/create-project-xl.png 1360w ,https://ue.guru/media/posts/1/responsive/create-project-2xl.png 1600w">
+      
+    </figure>
 
     <h2 id="create-factory-environment-collection-andamp-migrate-robotic-arm">
       Create "Factory Environment Collection" &amp; Migrate Robotic Arm
@@ -58,6 +68,29 @@
   <p>
     Create a version of the project using your currently installed Unreal Engine version, or the most recent version available for the project if your Unreal Engine version is newer. Migrating the Robotic Arm skeletal mesh will work as long as your Unreal Engine version is the same or <i>newer</i>&nbsp;than the Factory Environment Collection project.
   </p>
+
+  <p>
+    When the Factory Environment Collection project has been downloaded and created, open it from the Epic Launcher.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://ue.guru/media/posts/1/open-factory-environment-collection.png" height="668" width="1339" alt=""  sizes="100vw" srcset="https://ue.guru/media/posts/1/responsive/open-factory-environment-collection-xs.png 300w ,https://ue.guru/media/posts/1/responsive/open-factory-environment-collection-sm.png 480w ,https://ue.guru/media/posts/1/responsive/open-factory-environment-collection-md.png 768w ,https://ue.guru/media/posts/1/responsive/open-factory-environment-collection-lg.png 1024w ,https://ue.guru/media/posts/1/responsive/open-factory-environment-collection-xl.png 1360w ,https://ue.guru/media/posts/1/responsive/open-factory-environment-collection-2xl.png 1600w">
+      
+    </figure>
+
+  <p>
+    If you created the project for an engine version older than what you have installed, you will be prompted to select the engine version to open the project with. Select your installed unreal engine version and select okay.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://ue.guru/media/posts/1/engine-version.png" height="108" width="454" alt=""  sizes="100vw" srcset="https://ue.guru/media/posts/1/responsive/engine-version-xs.png 300w ,https://ue.guru/media/posts/1/responsive/engine-version-sm.png 480w ,https://ue.guru/media/posts/1/responsive/engine-version-md.png 768w ,https://ue.guru/media/posts/1/responsive/engine-version-lg.png 1024w ,https://ue.guru/media/posts/1/responsive/engine-version-xl.png 1360w ,https://ue.guru/media/posts/1/responsive/engine-version-2xl.png 1600w">
+      
+    </figure>
+
+    <h2 id="watch-this-video-while-your-shaders-compile">
+      Watch this video while your shaders compile
+    </h2>
+<div><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/EsyUa63NM1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></div>
 
   <p>
     
