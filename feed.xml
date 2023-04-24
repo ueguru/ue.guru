@@ -3,7 +3,7 @@
     <title>UE Guru</title>
     <link href="https://ue.guru/feed.xml" rel="self" />
     <link href="https://ue.guru" />
-    <updated>2023-04-24T20:20:29+02:00</updated>
+    <updated>2023-04-24T20:34:52+02:00</updated>
     <author>
         <name>Leigh Murray</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://ue.guru/creating-an-inverse-kinematic-robotic-arm-in-unreal-engine.html"/>
         <id>https://ue.guru/creating-an-inverse-kinematic-robotic-arm-in-unreal-engine.html</id>
 
-        <updated>2023-04-24T20:20:29+02:00</updated>
+        <updated>2023-04-24T20:34:52+02:00</updated>
             <summary>
                 <![CDATA[
                     Create a Project Create a new Unreal Engine project, we can call it "RoboticArmIK". The Factory Environment Collection&nbsp;is part of Unreal's permanently free collection. It is its own project, so create a project from the asset and we will migrate the Robotic Arm Skeletal mesh&hellip;
@@ -51,9 +51,13 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://ue.guru/media/posts/1/marketplacefactory.png" height="634" width="1317" alt=""  sizes="100vw" srcset="https://ue.guru/media/posts/1/responsive/marketplacefactory-xs.png 300w ,https://ue.guru/media/posts/1/responsive/marketplacefactory-sm.png 480w ,https://ue.guru/media/posts/1/responsive/marketplacefactory-md.png 768w ,https://ue.guru/media/posts/1/responsive/marketplacefactory-lg.png 1024w ,https://ue.guru/media/posts/1/responsive/marketplacefactory-xl.png 1360w ,https://ue.guru/media/posts/1/responsive/marketplacefactory-2xl.png 1600w">
+      <img loading="lazy" src="https://ue.guru/media/posts/1/marketplacefactory-2.png" height="634" width="1317" alt=""  sizes="100vw" srcset="https://ue.guru/media/posts/1/responsive/marketplacefactory-2-xs.png 300w ,https://ue.guru/media/posts/1/responsive/marketplacefactory-2-sm.png 480w ,https://ue.guru/media/posts/1/responsive/marketplacefactory-2-md.png 768w ,https://ue.guru/media/posts/1/responsive/marketplacefactory-2-lg.png 1024w ,https://ue.guru/media/posts/1/responsive/marketplacefactory-2-xl.png 1360w ,https://ue.guru/media/posts/1/responsive/marketplacefactory-2-2xl.png 1600w">
       
     </figure>
+
+  <p>
+    Create a version of the project using your currently installed Unreal Engine version, or the most recent version available for the project if your Unreal Engine version is newer. Migrating the Robotic Arm skeletal mesh will work as long as your Unreal Engine version is the same or <i>newer</i>&nbsp;than the Factory Environment Collection project.
+  </p>
 
   <p>
     
