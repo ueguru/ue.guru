@@ -2,8 +2,8 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "UE Guru",
     "description": "",
-    "home_page_url": "https://ueguru.github.io/ue.guru",
-    "feed_url": "https://ueguru.github.io/ue.guru/feed.json",
+    "home_page_url": "https://ue.guru",
+    "feed_url": "https://ue.guru/feed.json",
     "user_comment": "",
     "author": {
         "name": "Leigh Murray"
